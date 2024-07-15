@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LojaTech</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/produto.css">
 </head>
 <body>
     <header>
@@ -32,11 +34,24 @@
             </ul>
             <button id="hamburguer"><i class="fa fa-bars" aria-hidden="true"></i></button> <!--BOTÃO DE HABÚRGUER-->
         </nav>
+        <!--FECHA nav-->
+        <section class="carrossel"> <!--CARROSSEL-->
+            <div class="imagem-container">
+                <img src="img/carrossel.png" alt="Lojatech" width="800">
+                <div class="legenda">
+                    <i class="fa fa-shopping-cart fa-3x" aria-hidden="true">Loja Tech</i>
+                    <span>
+                        <h1>Bem-vindo à LojaTech</h1>
+                        <p>Satisfação a cada click</p>
+                    </span>
+                </div>
+            </div>
+        </section>
     </header>
 
     <main>
         <div class="conteudo_central">
-            <section id="produto">
+            <section id="produtos">
                 <!--produto 1-->
                 <div class="card">
                     <div class="card-header">
@@ -44,7 +59,7 @@
                     </div>
                      <!--FECHA .card-header-->
                     <div class="card-body">
-                        <a href="detalhes_produto.html"><img src="img/sansung23.jpeg" alt="Smartphone"></a>
+                        <a href="detalhes_produto.html"><img src="img/sansung23.jpeg" alt="Smartphone" width="200"></a>
                     </div>
                     <!--FECHA .card-body-->
                     <div class="card-footer">
@@ -73,7 +88,7 @@
                     </div>
                      <!--FECHA .card-header-->
                     <div class="card-body">
-                        <a href="detalhes_produto.html"><img src="img/sansung23.jpeg" alt="Smartphone"></a>
+                        <a href="detalhes_produto.html"><img src="img/sansung23.jpeg" alt="Smartphone" width="200"></a>
                     </div>
                     <!--FECHA .card-body-->
                     <div class="card-footer">
@@ -102,7 +117,7 @@
                     </div>
                      <!--FECHA .card-header-->
                     <div class="card-body">
-                        <a href="detalhes_produto.html"><img src="img/sansung23.jpeg" alt="Smartphone"></a>
+                        <a href="detalhes_produto.html"><img src="img/sansung23.jpeg" alt="Smartphone" width="200"></a>
                     </div>
                     <!--FECHA .card-body-->
                     <div class="card-footer">
@@ -124,7 +139,11 @@
                 </div>
                 <!--FECHA .card-->
             </section>
-            <!--FECHA #produto-->
+            <!--FECHA section #produto-->
+
+            <div class="btn_listar">
+                <a href="lista_produtos.html">Listar Produtos</a>
+            </div>
         </div>
         <!--FECHA .conteudo_central-->
     </main>
@@ -142,7 +161,7 @@
             <div>
                 <h1>Links</h1>
                 <ul>
-                    <li><a href="#">PRivacidade</a></li>
+                    <li><a href="#">Privacidade</a></li>
                     <li><a href="#">Cancelamento</a></li>
                     <li><a href="#">Entrega</a></li>
                 </ul>
